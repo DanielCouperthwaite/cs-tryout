@@ -4,12 +4,12 @@
     {
         static void Main (string[] args)
         {
-            Console.WriteLine("Is it sunny today?");
+            Console.WriteLine("Is it sunny today? Y/N ?");
             string response = Console.ReadLine();
 
-            if(response == "yes"){
+            if(response == "y"){
                 Yes();  
-            } else if(response != "yes"){
+            } else if(response == "n"){
                 No();
             }
             
@@ -22,7 +22,7 @@
 
             if(response == "y"){
                 Console.WriteLine("Nice! Better chase the ice-cream van!");
-            } else if(response != "n"){
+            } else if(response == "n"){
                 Console.WriteLine("No worries, cup of tea then");;
             }
         }
@@ -35,7 +35,7 @@
 
             if(response == "y"){
                 Console.WriteLine("Maybe grab an umbrella!");
-            } else if(response != "n"){
+            } else if(response == "n"){
                 Console.WriteLine("Perfect for a walk");
             
             }
