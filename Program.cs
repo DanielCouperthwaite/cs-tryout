@@ -4,23 +4,41 @@
     {
         static void Main (string[] args)
         {
-            Console.WriteLine("type Yes ");
+            Console.WriteLine("Is it sunny today?");
             string response = Console.ReadLine();
 
             if(response == "yes"){
-                PrintLanguage();  
+                Yes();  
             } else if(response != "yes"){
-                PrintNo();
+                No();
             }
             
         }
-        public static void PrintLanguage ()
+        public static void Yes ()
         {
-            Console.WriteLine("Success!");
+            Console.WriteLine("Great!");
+            Console.WriteLine("Warm enough for ice-cream? Y/N ?");
+            string response = Console.ReadLine();
+
+            if(response == "y"){
+                Console.WriteLine("Nice! Better chase the ice-cream van!");
+            } else if(response != "n"){
+                Console.WriteLine("No worries, cup of tea then");;
+            }
         }
-        public static void PrintNo ()
+        public static void No ()
         {
             Console.WriteLine("No");
+            Console.WriteLine("Cloudy enough for rain? Y/N ?");
+
+            string response = Console.ReadLine();
+
+            if(response == "y"){
+                Console.WriteLine("Maybe grab an umbrella!");
+            } else if(response != "n"){
+                Console.WriteLine("Perfect for a walk");
+            
+            }
         }
     }    
 }
