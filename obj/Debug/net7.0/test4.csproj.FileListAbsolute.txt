@@ -1,0 +1,15 @@
+/home/danielcoup/northcoders/post/test4/bin/Debug/net7.0/test4
+/home/danielcoup/northcoders/post/test4/bin/Debug/net7.0/test4.deps.json
+/home/danielcoup/northcoders/post/test4/bin/Debug/net7.0/test4.runtimeconfig.json
+/home/danielcoup/northcoders/post/test4/bin/Debug/net7.0/test4.dll
+/home/danielcoup/northcoders/post/test4/bin/Debug/net7.0/test4.pdb
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.csproj.AssemblyReference.cache
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.GeneratedMSBuildEditorConfig.editorconfig
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.AssemblyInfoInputs.cache
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.AssemblyInfo.cs
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.csproj.CoreCompileInputs.cache
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.dll
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/refint/test4.dll
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.pdb
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/test4.genruntimeconfig.cache
+/home/danielcoup/northcoders/post/test4/obj/Debug/net7.0/ref/test4.dll
