@@ -14,6 +14,8 @@ namespace Name
             } else if(response == "n"){
                 No();
             }
+
+            Console.WriteLine("Thanks for playing!");
             
         }
         public static void Yes ()
