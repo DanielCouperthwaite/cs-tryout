@@ -13,7 +13,7 @@ public class Summary
 
         public Summary (string weather, string decision)
         {
-            QuestionsAnswered = 0;
+            QuestionsAnswered = 1;
             Writing = $"The weather is {weather}, You made the decision to {decision}!";
         }
 

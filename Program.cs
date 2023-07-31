@@ -9,6 +9,7 @@ namespace Name
             Console.WriteLine("Is it sunny today? Y/N ?");
             string? response = Console.ReadLine();
 
+
             if(response == "y"){
                 Yes();  
             } else if(response == "n"){
@@ -27,10 +28,12 @@ namespace Name
             if(response == "y"){
                 Console.WriteLine("Nice! Better chase the ice-cream van!");
                 system.Summary a = new system.Summary("sunny and warm", "eat ice-cream");
+                a.AddQuestion();
                 a.PrintWriting();
             } else if(response == "n"){
                 Console.WriteLine("No worries, cup of tea then");;
                 system.Summary b = new system.Summary("sunny and cold", "drink a cup of tea");
+                b.AddQuestion();
                 b.PrintWriting();
             }
         }
@@ -44,10 +47,12 @@ namespace Name
             if(response == "y"){
                 Console.WriteLine("Maybe grab an umbrella!");
                 system.Summary c = new system.Summary("cloudy and rainy", "use an umbrella");
+                c.AddQuestion();
                 c.PrintWriting();
             } else if(response == "n"){
                 Console.WriteLine("Perfect for a walk");
                 system.Summary d = new system.Summary("cloudy but dry", "go for a walk");
+                d.AddQuestion();
                 d.PrintWriting();
             
             }
